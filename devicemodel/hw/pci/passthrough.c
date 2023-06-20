@@ -576,6 +576,12 @@ passthru_gpu_dsm_opregion(struct vmctx *ctx, struct passthru_dev *ptdev,
 	case 0x4557:
 	case 0x4570:
 	case 0x4571:
+	/* Jasper Lake */
+	case 0x4e51:
+	case 0x4e55:
+	case 0x4e57:
+	case 0x4e61:
+	case 0x4e71:
 	/* Tiger Lake-GT1 */
 	case 0x9a60:
 	case 0x9a68:
@@ -589,6 +595,13 @@ passthru_gpu_dsm_opregion(struct vmctx *ctx, struct passthru_dev *ptdev,
 	case 0x9ac9:
 	case 0x9ad9:
 	case 0x9af8:
+	/* Rocket Lake */
+	case 0x4c80:
+	case 0x4c8a:
+	case 0x4c8b:
+	case 0x4c8c:
+	case 0x4c90:
+	case 0x4c9a:
 	/* Alder Lake-S */
 	case 0x4680:
 	case 0x4682:
